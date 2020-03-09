@@ -1,0 +1,13 @@
+com\onsel\onselnet\service\PetClinicService.class
+com\onsel\onselnet\exception\OwnerNotFoundException.class
+META-INF\spring-configuration-metadata.json
+com\onsel\onselnet\model\Pet.class
+com\onsel\onselnet\web\PetClinicController.class
+com\onsel\onselnet\onselnetApplication.class
+com\onsel\onselnet\dao\PetRepository.class
+com\onsel\onselnet\dao\OwnerRepository.class
+com\onsel\onselnet\onselnetProperties.class
+com\onsel\onselnet\model\Owner.class
+com\onsel\onselnet\dao\mem\OwnerRepositoryInMemoryImpl.class
+com\onsel\onselnet\onselnetConfiguration.class
+com\onsel\onselnet\service\PetClinicServiceImpl.class

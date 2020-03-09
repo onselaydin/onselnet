@@ -1,0 +1,14 @@
+ctrl+shif+t ile console yazıp h2 nin konsolunu bul. inen class da console sağ click runas java application ile
+consolu çalıştır.açılan browserda h2 serverı seç.
+kısayol tuşarı ctrl + shift ve komutun ingilizce baş harfi üzerinden bir mantıkla işliyor...
+örneğin comment // koymak için ctrl + shift + C
+resource penceresini açmak için crtl + shift + r
+
+pomdan tanımladığımız dependecy tanımları aşağıdaki lokasyondan erişebiliriz.
+C:\Users\Onsel.ALISANMERKEZ\.m2\repository\org\springframework
+security dependency pomunu ekledikten sonra  projemizi çalıştırıyoruz. consolda aşağıdaki
+şifre türetiliyor. Using generated security password: 890fbf2a-2bdc-4d0f-baf4-c98d5d36b7fb
+localhost:8080 e browserdan eriştiğimde login ekranı gelecek kullanıcı adına user şifreyede
+üstteki passwordu gireceğim. gireceğim
+
+spring hol browser

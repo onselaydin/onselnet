@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.onsel.net.petckinic.web.PetClinicRestControllerTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 13.019 s <<< FAILURE! - in com.onsel.net.petckinic.web.PetClinicRestControllerTests
+testDeleteOwner(com.onsel.net.petckinic.web.PetClinicRestControllerTests)  Time elapsed: 2.579 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8080/rest/owner/1": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testDeleteOwner(PetClinicRestControllerTests.java:31)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testDeleteOwner(PetClinicRestControllerTests.java:31)
+
+testCreateOwner(com.onsel.net.petckinic.web.PetClinicRestControllerTests)  Time elapsed: 2.148 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8080/rest/owner": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testCreateOwner(PetClinicRestControllerTests.java:66)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testCreateOwner(PetClinicRestControllerTests.java:66)
+
+testGetOwnersByLastName(com.onsel.net.petckinic.web.PetClinicRestControllerTests)  Time elapsed: 2.075 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/rest/owner": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testGetOwnersByLastName(PetClinicRestControllerTests.java:83)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testGetOwnersByLastName(PetClinicRestControllerTests.java:83)
+
+testGetOwnerById(com.onsel.net.petckinic.web.PetClinicRestControllerTests)  Time elapsed: 2.09 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/rest/owner/1": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testGetOwnerById(PetClinicRestControllerTests.java:77)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testGetOwnerById(PetClinicRestControllerTests.java:77)
+
+testGetOwners(com.onsel.net.petckinic.web.PetClinicRestControllerTests)  Time elapsed: 2.028 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/rest/owners": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testGetOwners(PetClinicRestControllerTests.java:93)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testGetOwners(PetClinicRestControllerTests.java:93)
+
+testupdateOwner(com.onsel.net.petckinic.web.PetClinicRestControllerTests)  Time elapsed: 2.008 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/rest/owner/1": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testupdateOwner(PetClinicRestControllerTests.java:50)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.onsel.net.petckinic.web.PetClinicRestControllerTests.testupdateOwner(PetClinicRestControllerTests.java:50)
+

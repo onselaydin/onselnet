@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.onsel.onselnet.onselnetProperties",
+      "name": "onselnet",
+      "type": "com.onsel.onselnet.onselnetProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.onsel.onselnet.onselnetProperties",
+      "defaultValue": false,
+      "name": "onselnet.display-owners-with-pets",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
